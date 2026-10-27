@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a6b80"/>
+      <stop offset="1" stop-color="#46566a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".35" r=".55">
+      <stop offset="0" stop-color="#fff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="600" fill="url(#wall)"/>
+  <rect width="720" height="600" fill="url(#glow)"/>
+
+  <!-- пол и ковёр -->
+  <rect y="478" width="720" height="122" fill="#5b4334"/>
+  <rect y="478" width="720" height="5" fill="#3a2a20" opacity=".6"/>
+  <path d="M140 510H580L632 600H88Z" fill="#7d8b99"/>
+  <path d="M164 520H556L598 592H122Z" fill="none" stroke="#a3aebb" stroke-width="3"/>
+
+  <!-- зеркало -->
+  <circle cx="360" cy="236" r="86" fill="#61738a" stroke="#c9a35a" stroke-width="5"/>
+  <circle cx="360" cy="236" r="86" fill="url(#glow)"/>
+
+  <!-- люстра -->
+  <line x1="360" y1="0" x2="360" y2="74" stroke="#b8924a" stroke-width="3"/>
+  <path d="M296 104L360 74L424 88M326 138L360 112L398 126M360 74V112" fill="none" stroke="#b8924a" stroke-width="2"/>
+  <g fill="#ece5d2" stroke="#b8924a" stroke-width="2">
+    <circle cx="296" cy="104" r="10"/><circle cx="424" cy="88" r="10"/>
+    <circle cx="326" cy="138" r="10"/><circle cx="398" cy="126" r="10"/>
+  </g>
+
+  <!-- стеллаж -->
+  <g stroke="#b8924a" stroke-width="3">
+    <line x1="598" y1="262" x2="598" y2="478"/><line x1="704" y1="262" x2="704" y2="478"/>
+    <line x1="598" y1="326" x2="704" y2="326"/><line x1="598" y1="400" x2="704" y2="400"/>
+  </g>
+  <rect x="610" y="300" width="36" height="26" fill="#e8e1d0"/>
+  <rect x="654" y="308" width="30" height="18" fill="#c9bfa8"/>
+  <rect x="616" y="376" width="44" height="24" fill="#d9d1c0"/>
+  <circle cx="680" cy="386" r="14" fill="#c08a4a"/>
+
+  <!-- растение -->
+  <rect x="22" y="404" width="62" height="74" rx="6" fill="#e6e1d8"/>
+  <g fill="#4e7a4c">
+    <ellipse cx="40" cy="330" rx="22" ry="54" transform="rotate(-25 40 330)"/>
+    <ellipse cx="72" cy="318" rx="20" ry="60" transform="rotate(15 72 318)"/>
+    <ellipse cx="50" cy="372" rx="18" ry="42" transform="rotate(-62 50 372)"/>
+  </g>
+  <ellipse cx="90" cy="374" rx="16" ry="42" transform="rotate(55 90 374)" fill="#5d8b59"/>
+
+  <!-- торшер и столик -->
+  <rect x="106" y="432" width="70" height="46" rx="4" fill="#a8823f"/>
+  <line x1="141" y1="432" x2="141" y2="330" stroke="#a8823f" stroke-width="4"/>
+  <path d="M106 330H176L165 284H117Z" fill="#efe3c6"/>
+
+  <!-- диван -->
+  <rect x="190" y="350" width="340" height="74" rx="20" fill="#a35f35"/>
+  <rect x="200" y="402" width="320" height="64" rx="12" fill="#b46c3e"/>
+  <rect x="176" y="380" width="42" height="92" rx="16" fill="#9a5631"/>
+  <rect x="502" y="380" width="42" height="92" rx="16" fill="#9a5631"/>
+  <rect x="210" y="466" width="10" height="14" fill="#3a2a20"/>
+  <rect x="500" y="466" width="10" height="14" fill="#3a2a20"/>
+  <rect x="222" y="350" width="74" height="62" rx="12" fill="#f2efe9" transform="rotate(-8 259 381)"/>
+  <rect x="280" y="360" width="66" height="54" rx="12" fill="#d8cdb4" transform="rotate(6 313 387)"/>
+  <rect x="378" y="360" width="66" height="54" rx="12" fill="#d8cdb4" transform="rotate(-6 411 387)"/>
+  <rect x="428" y="350" width="74" height="62" rx="12" fill="#f2efe9" transform="rotate(8 465 381)"/>
+
+  <!-- журнальный столик -->
+  <rect x="354" y="522" width="12" height="40" fill="#b8924a"/>
+  <ellipse cx="360" cy="562" rx="42" ry="7" fill="#b8924a"/>
+  <ellipse cx="360" cy="520" rx="112" ry="22" fill="#ece9e3"/>
+  <ellipse cx="330" cy="512" rx="20" ry="6" fill="#b8924a"/>
+  <rect x="380" y="500" width="10" height="14" fill="#f7f7f4"/>
+</svg>
